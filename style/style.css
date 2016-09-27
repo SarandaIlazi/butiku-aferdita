@@ -1,0 +1,231 @@
+ 
+ body {
+	background-color:white;
+	font-family:sans-serif;
+	}
+
+.wrap{
+	width: 1000px;
+	height:1000px;
+	margin: auto;
+	background-color:#DCDCDC;
+	}
+
+h1{
+	font-size: 60px;
+	text-align:center;
+	margin-top:0px;
+	background: -webkit-linear-gradient(#aa31c2, #482257);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-top:10px;
+	padding-bottom:5px;
+	font-family: 'Lobster', cursive;
+}
+.search{
+	font-size:20px;
+	float:right;
+	margin: 80px 20px ;
+	padding: 5px 10px 5px 10px;;
+
+}
+
+
+.button_add {
+  background: #aa31c2;
+  background-image: -webkit-linear-gradient(top, #aa31c2, #482257);
+  background-image: -moz-linear-gradient(top, #aa31c2, #482257);
+  background-image: -ms-linear-gradient(top, #aa31c2, #482257);
+  background-image: -o-linear-gradient(top, #aa31c2, #482257);
+  background-image: linear-gradient(to bottom, #aa31c2, #482257);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 3px 5px 3px 5px;
+  text-decoration: none;
+}
+
+.button_add:hover {
+  background: #FF00FF;
+  text-decoration: none;
+}
+
+#navMenu{
+	width: 1000px;
+	height: 38px;
+	font-size: 20px;
+	text-align: left;
+	font-weight: bold;
+	background-image: -moz-linear-gradient(top, #aa31c2, #482257);
+	background-image: -ms-linear-gradient(top, #aa31c2, #482257);
+	background-image: -webkit-linear-gradient(top, #aa31c2, #482257);
+	background-image: linear-gradient(top, #aa31c2, #482257);
+	}
+#navMenu ul{
+	height: auto;
+	padding: 8px 0px;
+	margin:0px;
+}
+#navMenu li{
+	display:inline;
+	padding: 20px;
+}
+#navMenu a{
+	text-decoration:none;
+	color: white;
+	padding: 8px 8px 8px 8px;
+}
+#navMenu a:hover {
+	background-color: #FF00FF;
+}
+.banner {
+	background: url(../img/cover.jpg) no-repeat;
+	width: 500px;
+	height:300px;
+	margin-left:10px;
+}
+.banner h5 {
+	color:white;
+	font-size: 28px;
+}
+
+#categories{
+	margin-left: 10px;
+	color:#800080;
+	font-weight: bold;
+}
+
+#categoriesList{
+	width: 120px;
+	font-size:18px;
+	text-align:left;
+}
+#categoriesList ul{
+	height: auto;
+	padding:8px 0px;
+	margin: 10px;
+	list-style-type: none;	
+}
+#categoriesList li{
+	display:block;
+	float:left;
+	padding: 5px;
+}
+#categoriesList a{
+	text-decoration:none;
+	color: #800080;
+	font-weight: bold;
+	padding: 8px 8px 8px 8px;
+}
+#categoriesList a:hover {
+	background-color:#C0C0C0 ;
+}
+#map{
+	margin:20px;
+	float: right;
+}
+
+.aside{
+	float:right;
+	position: right;
+}
+.contact{
+	margin-left:20px;
+	margin-top:40px;
+}
+form li {
+	list-style:none;
+	margin-bottom:20px;
+}
+label{
+	display: block;
+	width: 50px;
+	
+}
+form ul{
+	padding-left:20px;
+}
+textarea {
+	width: 350px;
+	height: 220px;
+	font-family: sans-serif,verdana, ariel;
+}
+#social_media{
+	margin-bottom:30px;
+	margin-left: 20px;
+}
+
+
+#footer{
+	font-size: 13px;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	width: 1000px;
+	background-image: -webkit-linear-gradient(top, #aa31c2, #482257);
+	background-image: -moz-linear-gradient(top, #aa31c2, #482257);
+	background-image: -ms-linear-gradient(top, #aa31c2, #482257);
+	background-image: -o-linear-gradient(top, #aa31c2, #482257);
+	background-image: linear-gradient(to bottom, #aa31c2, #482257);
+}
+.carousel-img { /* Qiti funksionaliteti i thojn Carousel */
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 98%;
+	z-index:10px;
+	margin: 10px;
+}
+#content{
+	font-family:sans-serif;
+	margin-right:20px;
+}
+article img{
+	float: left;
+	width:350px;
+	height:350px;
+	padding:20px;
+	margin-right:20px;
+	margin-left:20px;
+}
+.fb-page{
+	margin: 10px;
+}
+#categoriesList{
+	float: left;
+	width: 120px;
+}
+.iframe-content{
+	float: right;
+	width: 850px;
+}
+.iframe-box{
+	border:0;
+	width: 850px;
+	height: 655px;
+}
+.content-page{
+	background: #DCDCDC;
+	width: 850px;
+}
+.box{
+	width:260px;
+	height: 310px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 8px #482257;
+	display: inline-table;
+	margin: 5px;
+    overflow: auto;
+}
+.boxPhoto{
+	width: 240px;
+	height:300px;
+	margin: 7px 3px 3px 7px;
+}
